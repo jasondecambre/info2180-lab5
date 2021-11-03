@@ -1,1 +1,67 @@
 /* Add your own styles */
+
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: white;
+    background-color: #484a4f;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+body{
+    background-color: #ebedf2;
+}
+
+#controls{
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+#country{
+    height: 30px;
+    width:500px;
+    border-radius: 5px;
+}
+
+#lookup, #lookup_cities{
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#lookup{
+    background-color: #50cc7d;
+}
+
+#lookup_cities{
+    background-color: #2274e0;
+}
+
+#result{
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+
+}
+
+th, td{
+    padding: 15px;
+}
+tbody tr{
+    border-bottom: 1px solid #2274e0;
+}
